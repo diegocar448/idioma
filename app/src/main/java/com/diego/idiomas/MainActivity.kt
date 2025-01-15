@@ -83,11 +83,41 @@ fun Home(){
                             //Aqui adicionamos todos os nosso items
                             DropdownMenuItem(
                                 text = {
-                                    Text(text = "Protuguês")
+                                    Text(text = "Português")
                                 },
                                 leadingIcon = {
                                     Image(
                                         painter = painterResource(R.drawable.brasil),
+                                        contentDescription = null,
+                                        modifier = Modifier.size(30.dp)
+                                    )
+                                },
+                                onClick = {
+
+                                }
+                            )
+                            DropdownMenuItem(
+                                text = {
+                                    Text(text = "Inglês")
+                                },
+                                leadingIcon = {
+                                    Image(
+                                        painter = painterResource(R.drawable.eua),
+                                        contentDescription = null,
+                                        modifier = Modifier.size(30.dp)
+                                    )
+                                },
+                                onClick = {
+
+                                }
+                            )
+                            DropdownMenuItem(
+                                text = {
+                                    Text(text = "Espanhol")
+                                },
+                                leadingIcon = {
+                                    Image(
+                                        painter = painterResource(R.drawable.espanha),
                                         contentDescription = null,
                                         modifier = Modifier.size(30.dp)
                                     )
