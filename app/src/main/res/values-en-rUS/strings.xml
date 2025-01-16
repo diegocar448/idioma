@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Languages</string>
+    <string name="idioma">English (EN)</string>
+    <string name="descricao">My name is Diego, I live on planet Earth and I am a Mobile developer</string>
+</resources>
